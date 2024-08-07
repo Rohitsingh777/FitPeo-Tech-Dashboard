@@ -267,6 +267,8 @@ export default function MiniDrawer() {
 
 
           <Divider />
+                  <div className=" h-full flex flex-row  items-end">
+
           <List>
 
             <ListItem disablePadding sx={{ display: "block" }}>
@@ -294,6 +296,7 @@ export default function MiniDrawer() {
             
            
           </List>
+          </div>
 
         </Drawer>
         <Box component="main" sx={{ flexGrow: 1, p: 0 }}>
