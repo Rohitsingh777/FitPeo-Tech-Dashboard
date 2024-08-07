@@ -8,15 +8,15 @@ export default function Board() {
   return (
     <>
     {/* <Nav/> */}
-    <div  className=' w-scren h-screen  bg-black'>
-        <div className=' w-full h-1/5 flex justify-center align-middle items-center '>
+    <div  className=' w-full bg-black  '>
+        <div className=' w-full flex justify-center align-middle items-center md:h-48 '>
             <Top/>
         </div>
-        <div className=' w-full h-1/3 flex justify-center align-middle  items-center mt-8'>
+        <div className=' w-full flex justify-center align-middle  items-center md:mt-8 mt-4 md:h-72'>
             <Mid/>
         </div>
    
-        <div className=' w-full flex justify-center align-middle  items-center'>
+        <div className=' w-full flex justify-center align-middle md:min-h-96 items-center'>
     <Bottom/>
         </div>
     </div>

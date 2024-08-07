@@ -79,24 +79,14 @@ export default function Bottom() {
       ),
       sortable: true,
     },
-    // {
-    //   name: 'Details',
-    //   cell: row => (
-    //     <Button variant="contained" color="primary" onClick={() => handleDetails(row)}>
-    //       Details
-    //     </Button>
-    //   ),
-    //   ignoreRowClick: true,
-    //   allowOverflow: true,
-    //   button: true,
-    // },
+    
   ];
 
   return (
-    <div className=" w-full h-full bg-black mt-8">
+    <div className=" w-full h-full bg-black mt-8 md:max-h-96 ">
       <div className="h-full grid sm:grid-cols-[4fr_2fr] grid-cols-1  gap-4 p-2 ">
         <div className=" h-full p-2 rounded-lg bg-neutral-800">
-          <div></div>
+        
           <DataTable
           title="Recent Orders"
             columns={columns}
@@ -108,8 +98,8 @@ export default function Bottom() {
           />
         </div>
 
-        <div className=" h-full p-2 rounded-lg  bg-neutral-800   pl-8 pr-8 ">
-          <CommentSection />
+        <div className=" h-full md:max-h-96  p-2 rounded-lg  bg-neutral-800   pl-8 pr-8 ">
+          <CommentSection /> 
         </div>
       </div>
     </div>
