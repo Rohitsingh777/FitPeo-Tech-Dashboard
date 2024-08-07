@@ -1,9 +1,10 @@
 import Board from "./Components/Board";
+import MiniDrawer from "./Components/Sidebar";
 
 function App() {
   return (
    <div>
-    <Board/>
+    <MiniDrawer/>
    </div>
   );
 }

@@ -42,21 +42,21 @@ export default function Mid() {
     <div className='w-full flex justify-between items-center'>
         <div  className=' flex flex-row items-center'> 
         <TrackChangesIcon fontSize='large' color='error'/> 
-        <p className='ml-4 text-2xl text-white'>Goals</p>
+        <p className='ml-4 text-xl text-white'>Goals</p>
         </div>
       <ArrowForwardIosIcon fontSize='large' color='primary'/>
     </div>
     <div className='w-full flex justify-between items-center  '>
         <div  className=' flex flex-row items-center'> 
         <LunchDiningIcon fontSize='large' color='secondary'/> 
-        <p className='ml-4 text-2xl text-white'>Popular Dishes </p>
+        <p className='ml-4 text-xl text-white'>Popular Dishes </p>
         </div>
       <ArrowForwardIosIcon fontSize='large' color='primary'/>
     </div>
     <div className='w-full flex justify-between items-center  '>
         <div  className=' flex flex-row items-center'> 
         <FastfoodIcon fontSize='large' color='warning'/> 
-        <p className='ml-4 text-2xl text-white'>Menus</p>
+        <p className='ml-4 text-xl text-white'>Menus</p>
         </div>
       <ArrowForwardIosIcon fontSize='large' color='primary'/>
     </div>

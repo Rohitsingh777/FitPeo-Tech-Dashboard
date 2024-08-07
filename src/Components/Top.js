@@ -27,7 +27,7 @@ const StyledText = styled("text")(({ theme }) => ({
 export default function Top() {
   return (
     <div className=" w-full h-full">
-      <div className=" h-1/6 w-full  bg-black text-3xl text-white font-bold  pl-6">
+      <div className=" h-1/6 w-full  bg-black text-3xl text-white font-bold  pl-6 mt-4">
         DASHBOARD
       </div>
 
